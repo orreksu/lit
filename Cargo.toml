@@ -1,0 +1,11 @@
+[package]
+name = "lit"
+version = "0.1.0"
+authors = ["Oleksandr Litus <oleks.litus@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "lit"
+
+[dependencies]
+clap = "3.0.0-beta.2"
