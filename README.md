@@ -1,6 +1,8 @@
 # lit
 Lighter git
 
+!!! DO NOT USE THIS !!!
+
 ### Alternatives
 - [GitHub - frostming/legit at develop](https://github.com/frostming/legit/tree/develop)
 - [Gitless](https://gitless.com)
@@ -14,4 +16,20 @@ Lighter git
 - https://github.com/jonas/tig
 
 
-!!! DO NOT USE THIS !!!
+## Visual Guide to `git`
+```
+    Working Are    |    Staged Area    |    Commited Area
+--------------------------------------------------------------
+                   |                   |
+        {}---[git add <file>]------>   |
+                   |                   |
+                   |         {}---[git commit]--->
+                   |                   |
+        <---[git restore <file>]--{}   |
+                   |                   |
+                   |
+
+
+
+```
+
